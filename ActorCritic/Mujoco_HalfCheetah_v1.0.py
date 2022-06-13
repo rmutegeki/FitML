@@ -25,7 +25,7 @@ import h5py
 #import matplotlib.pyplot as plt
 import math
 
-from keras.layers.advanced_activations import LeakyReLU, PReLU
+from keras.layers import LeakyReLU, PReLU
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.layers import Embedding
